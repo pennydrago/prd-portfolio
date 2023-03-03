@@ -83,12 +83,23 @@ nav a:hover {
   text-decoration: underline;
 }
 
-nav a:focus {
-  background-color: #ECECF0;
-}
-
 nav a:active {
   color: #ECECF0;
+}
+
+
+/* Main styles */
+
+a {
+  color: #154890;
+}
+
+a:hover {
+  color:#161617;
+}
+
+a:active {
+  font-weight: 400;
 }
 
 
