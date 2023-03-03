@@ -61,15 +61,34 @@ h1 {
   color: #092040;
 }
 
+
+/* Navigation bar styles */
 nav {
   background-color: #B9CAE2;
 }
 
 nav li {
+  display: inline;
+  margin-right: 3em;
+}
+
+nav a {
   color: #092040;
   font-weight: bold;
-  display: inline;
-  padding-right: 3em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #154890;
+  text-decoration: underline;
+}
+
+nav a:focus {
+  background-color: #ECECF0;
+}
+
+nav a:active {
+  color: #ECECF0;
 }
 
 
