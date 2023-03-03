@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: blueviolet;
+/* main styles */
+body {
+  background-color: #ECECF0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h3 {
+  color: #154890;
+  ;
 }
