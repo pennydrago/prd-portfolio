@@ -8,12 +8,17 @@
 /* main styles */
 body {
   background-color: #ECECF0;
+  color: #161617;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
 }
 
 h2, h3 {
   color: #154890;
-  ;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .container {
@@ -47,20 +52,29 @@ h2, h3 {
 */
 
 
-/* Test colours to show HTML elements for layout */
-
+/* Header styles */
 header {
-  background-color: aqua;
+  background-color: #B9CAE2;
+}
+
+h1 {
+  color: #092040;
 }
 
 nav {
-  background-color: darkseagreen;
+  background-color: #B9CAE2;
 }
 
-main {
-  background-color: coral;
+nav li {
+  color: #092040;
+  font-weight: bold;
+  display: inline;
+  padding-right: 3em;
 }
 
+
+/* Footer styles */
 footer {
-  background-color: blueviolet;
+  background-color: #B6B6BB;
+  padding: 1.5em 0em;
 }
