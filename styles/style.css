@@ -15,3 +15,52 @@ h2, h3 {
   color: #154890;
   ;
 }
+
+.container {
+  max-width: 60%;
+  margin: auto;
+}
+
+
+/* Test layout for 2- and 3-columns */
+
+/*
+.container-2-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column-2 {
+
+}  
+
+.container-3-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column-3 {
+
+}  
+*/
+
+
+/* Test colours to show HTML elements for layout */
+
+header {
+  background-color: aqua;
+}
+
+nav {
+  background-color: darkseagreen;
+}
+
+main {
+  background-color: coral;
+}
+
+footer {
+  background-color: blueviolet;
+}
