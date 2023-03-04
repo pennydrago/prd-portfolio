@@ -17,8 +17,17 @@ h2, h3 {
   color: #154890;
 }
 
+h4 {
+  color:#092040;
+  padding-top: 1em;
+}
+
 section {
   padding-top: 2em;
+}
+
+h3 {
+  padding-top: 1.5em;
 }
 
 ul {
@@ -30,16 +39,13 @@ ul {
   margin: auto;
 }
 
-
-/* Test layout for 2- and 3-columns */
-
-/*
 .container-2-columns {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
+/* Test layout
 .column-2 {
 
 }  
