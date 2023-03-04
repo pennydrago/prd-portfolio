@@ -48,18 +48,21 @@ ul {
 /* Test layout
 .column-2 {
 
-}  
+}  */
 
 .container-3-columns {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .column-3 {
-
+  width: 15em;
+  height: 18em;
+  border: #B6B6BB solid 2px;
+  border-radius: 5px;
+  padding-left: 0.7em;
 }  
-*/
 
 
 /* Header styles */
@@ -122,4 +125,5 @@ a:active {
 footer {
   background-color: #B6B6BB;
   padding: 1.5em 0em;
+  margin-top: 1em;
 }
