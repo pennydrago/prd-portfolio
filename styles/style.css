@@ -10,6 +10,7 @@ body {
   background-color: #ECECF0;
   color: #161617;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
   line-height: 2;
 }
 
@@ -32,6 +33,11 @@ h3 {
 
 ul {
   list-style-type: none;
+}
+
+.list-blog {
+  list-style-type: disc;
+  padding-left: 2.5em;
 }
 
 .container {
@@ -106,11 +112,11 @@ nav a:hover {
 
 /* Main styles */
 
-#contact a {
+.link {
   color: #154890;
 }
 
-#contact a:hover {
+.link:hover {
   color:#161617;
 }
 
