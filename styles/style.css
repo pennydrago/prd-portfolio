@@ -20,8 +20,10 @@ h2 {
 }
 
 h4 {
-  color: #161617;
-  padding-top: 1rem;
+  /* color: #555552; */
+  color: #82393C;
+  font-weight: 500;
+  font-size: 1.75rem;
 }
 
 section {
@@ -30,7 +32,8 @@ section {
 
 h3 {
   padding-top: 1.5rem;
-  color: #161617;
+  /* color: #161617; */
+  color: #82393c;
   font-size: 2rem;
   font-weight: 500;
 }
@@ -81,21 +84,21 @@ ul {
   margin-bottom: 1rem;
 }
 
-.container-3-columns {
+#skills-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  list-style: none;
+  gap: 2rem;
 }
 
-.column-3 {
-  width: 15rem;
-  height: 18rem;
-  border: #D1D2CF solid 2px;
-  border-radius: 5px;
-  padding-left: 0.7rem;
+.skills-card {
+  width: 30%;
   margin-bottom: 1rem;
-}  
+}
 
+.skills-card li {
+  list-style: none;
+}
 
 /* Header and navigation bar styles */
 header {
