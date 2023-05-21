@@ -5,7 +5,7 @@
 ### Description
 This portfolio website (created by using HTML and CSS) describes my background, skills and projects.
 
-The blue and grey color scheme was based on shades and tints of the hues #ECECF0 and #154890. The chosen colors passed accessibility for color contrast and color blindness (see Resources below). The sans-serif font stack (Helvetica, Arial and sans-serif) was chosen to improve accessibility.
+The red and grey color scheme was based on shades and tints of the hues #752327 and #8E8F89. The chosen colors passed accessibility for color contrast and color blindness (see Resources below). The sans-serif font stack (Arial, Helvetica, and sans-serif) was chosen to improve accessibility.
 
 ### Technology stack
 - HTML
@@ -30,6 +30,11 @@ The blue and grey color scheme was based on shades and tints of the hues #ECECF0
 - [color-hex, #e4e4ea Color hex](https://color-hex.org/color/e4e4ea)
 - [Adobe Color, Accessibility tools](https://color.adobe.com/create/color-accessibility)
 - [WebAIM, Contrast checker](https://webaim.org/resources/contrastchecker/)
+- [color-hex, #752327 Color hex](https://color-hex.org/color/752327)
+- [color-hex, #8e8f89 Color hex](https://color-hex.org/color/8e8f89)
+- [MDN, box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+- [State Government of Victoria, Acknowledgement of Traditional Owners](https://www.firstpeoplesrelations.vic.gov.au/acknowledgement-traditional-owners)
+- [State Government of Victoria, Welcome to Country and Acknowledgements Map](https://achris.vic.gov.au/weave/wca.html)
 
 ### License
 None
