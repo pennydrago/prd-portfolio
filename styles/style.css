@@ -70,6 +70,7 @@ ul {
 .project-card {
   width: 40%;
   min-width: 20rem;
+  min-height: 30rem;
   margin-bottom: 4rem;
   border: #161617 solid 1px;
   box-shadow: 10px 10px 4px #D1D2CF;
@@ -174,6 +175,10 @@ nav a:hover {
   max-width: 30%;
   min-width: 150px;
   margin: 0 0 2rem 2rem;
+}
+
+.note {
+  font-size: 1.25rem;
 }
 
 /* Footer styles */
