@@ -181,6 +181,19 @@ nav a:hover {
   font-size: 1.25rem;
 }
 
+.image-centre {
+ max-width: 70%;
+ margin: 1rem auto;
+ display: inherit;
+ border: #161617 solid 1px;
+ box-shadow: 10px 10px 4px #D1D2CF;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
 /* Footer styles */
 footer {
   background-color: #D1D2CF;
