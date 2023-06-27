@@ -30,10 +30,13 @@ section {
 }
 
 h3 {
-  padding-top: 1.5rem;
   color: #82393c;
   font-size: 2rem;
   font-weight: 500;
+}
+
+p {
+  padding-bottom: 1.5rem;
 }
 
 ul {
@@ -42,6 +45,7 @@ ul {
 
 .list-blog {
   list-style-type: disc;
+  padding-bottom: 1.5rem;
   padding-left: 2.5rem;
 }
 
@@ -109,22 +113,6 @@ ul {
   color: #FFFFFF;
 }
 
-#skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  gap: 2rem;
-}
-
-.skills-card {
-  width: 30%;
-  min-width: 15rem;
-}
-
-.skills-card li {
-  list-style: none;
-}
-
 /* Header and navigation bar styles */
 header {
   background-color: #D1D2CF;
@@ -170,6 +158,13 @@ nav a:hover {
   color:#161617;
 }
 
+.persona-text {
+  font-size: 1.25rem;
+  list-style-type: disc;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
 .image-right {
   float: right;
   max-width: 30%;
@@ -177,8 +172,11 @@ nav a:hover {
   margin: 0 0 2rem 2rem;
 }
 
-.note {
-  font-size: 1.25rem;
+.image-persona {
+  float: right;
+  max-width: 50%;
+  min-width: 200px;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 .image-centre {
@@ -200,6 +198,10 @@ nav a:hover {
 figcaption {
   text-align: center;
   font-size: 1.25rem;
+}
+
+.caption-space {
+  padding-bottom: 2rem;
 }
 
 /* Footer styles */
