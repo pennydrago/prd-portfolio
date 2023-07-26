@@ -28,75 +28,93 @@
       <div class="container">
         
         <!-- About section -->
-        <section id="about">
-          <h2>About</h2>  
-          <img class="image-right" src="./images/portfolio-pdrago-photograph.jpg" alt="Headshot of Penny Drago in a black suit jacket and striped top smiling at the camera.">
-          <p>I'm an aspiring front-end developer with a passion for creating websites that are beautiful, user-friendly and accessible.</p>
-          <h3>Background</h3>
-          <p>I am a lifelong learner who is changing careers to become a front-end developer. Coming from the publishing industry, I have a strong understanding of creating clear and consistent content for the target audience. I'm excited to apply this experience and my problem-solving skills, which I developed during my PhD research, to building websites. With a focus on user experience (UX) design and user interface (UI) design underlying my approach, I'm excited to work in the web development space.</p>
-          <h3>Experience</h3>
-          <p>During my current pivot to becoming a front-end developer, I have developed this portfolio website, a company home page and single-page web application.</p>
-          <p>In my previous role as a freelance editor, I used my clear communication skills, excellent attention to detail and effective planning skills to help clients publish science journal papers and educational texts.</p>
-        
-          <h3>Skills</h3>
-          <ul class="list-blog">
-            <li>Development: HTML, CSS, Markdown, JavaScript</li>
-            <li>Design: UX design, UI design, Wireframing, Prototyping</li>
-            <li>Tools: Visual Studio Code, Command line interface, Git, GitHub, Figma, Trello, Miro</li>
-          </ul>
+        <section id="about" class="inline">
+          <div class="left-content">
+            <h2>About</h2>
+            <p>An aspiring front-end web developer with a passion for creating websites that are user-friendly and accessible.</p>
+            <h3>Background</h3>
+            <p>I am a lifelong learner who is changing careers from science editor to front-end web developer. Coming from the publishing industry, I have a strong understanding of creating clear and consistent content for the target audience. I'm excited to apply this experience and my problem-solving skills, which I developed during my PhD research, to building websites. With a focus on user experience (UX) design and user interface (UI) design underlying my approach, I'm excited to work in the web development space.</p>        
+            <h3>Skills</h3>
+            <ul class="list-blog">
+              <li>Development: HTML, CSS, JavaScript, React, Markdown</li>
+              <li>Design: UX design, UI design, Wireframing, Prototyping</li>
+              <li>Tools: Visual Studio Code, Command line interface, Git, GitHub, Figma, Trello, Miro</li>
+            </ul>
+          </div>
+          <div class="right-content">
+            <img class="inline-portrait" src="./images/portfolio-pdrago-photograph.jpg" alt="Headshot of Penny Drago in a black suit jacket and striped top smiling at the camera.">
+          </div>
         </section>
 
         <!-- Projects section -->
         <section id="projects">
-          <h2>Projects</h2>
-            <ul id="projects-list">
-              <li class="project-card">
+          <h2 class="center-text">Projects</h2>
+          <ul id="projects-list">
+            <li class="project-card">
+              <div class="card-image">
                 <img src="./images/classic-beanery-image.jpg" alt="Preview of Classic Beanery website">
+              </div>
+              <div class="card-text">
                 <h3>Classic Beanery</h3>
                 <p>A company home page created with HTML and CSS</p>
-                <a href="https://pennydrago.github.io/classic-beanery/" target="_blank">Website</a>
-                <a href="https://github.com/pennydrago/classic-beanery" target="_blank">GitHub</a>
-              </li>
-              <li class="project-card">
+                <a class="button-secondary" href="https://pennydrago.github.io/classic-beanery/" target="_blank">Website</a>
+                <a class="button-secondary" href="https://github.com/pennydrago/classic-beanery" target="_blank">GitHub</a>
+              </div>
+            </li>
+            <li class="project-card">
+              <div class="card-image">
                 <img src="./images/nobel-prize-explorer-image.jpg" alt="Preview of Nobel Prize Explorer app">
+              </div>
+              <div class="card-text">
                 <h3>Nobel Prize Explorer</h3>
                 <p>A single-page web application created with HTML, CSS and JavaScript</p>
-                <a href="https://pennydrago.github.io/nobel-prize-explorer/" target="_blank">Website</a>
-                <a href="https://github.com/pennydrago/nobel-prize-explorer" target="_blank">GitHub</a>
-              </li>
-              <li class="project-card">
+                <a class="button-secondary" href="https://pennydrago.github.io/nobel-prize-explorer/" target="_blank">Website</a>
+                <a class="button-secondary" href="https://github.com/pennydrago/nobel-prize-explorer" target="_blank">GitHub</a>
+              </div>
+            </li>
+            <li class="project-card">
+              <div class="card-image">
                 <img src="./images/cerulean-coast-restaurant-image.jpg" alt="Preview of Cerulean Coast Restaurant website">
+              </div>
+              <div class="card-text">
                 <h3>Cerulean Coast Restaurant</h3>
                 <p>A React single-page web application</p>
-                <a href="https://github.com/pennydrago/cerulean-coast" target="_blank">GitHub</a>
-              </li>
-              <li class="project-card">
+                <a class="button-secondary" href="https://github.com/pennydrago/cerulean-coast" target="_blank">GitHub</a>
+              </div>
+            </li>
+            <li class="project-card">
+              <div class="card-image">
                 <img src="./images/editing-course-locator-image.jpg" alt="Preview of Editing Course Locator website">
+              </div>
+              <div class="card-text">
                 <h3>Editing Course Locator</h3>
                 <p>A UX design project</p>
-                <a href="./uxproject.html">Case study</a>
-              </li>
-              <li class="project-card">
+                <a class="button-secondary" href="./uxproject.html">Case study</a>
+              </div>  
+            </li>
+            <li class="project-card last-card">
+              <div class="card-image">
                 <img src="./images/ui-design-crystal-wolf-image.jpg" alt="Preview of UI design Crystal Wolf website">
+              </div>
+              <div class="card-text">  
                 <h3>UI Design Portfolio</h3>
                 <p>A collection of UI design pieces</p>
-                <a href="./uiportfolio.html">Portfolio</a>
-              </li>
-            </ul>  
+                <a class="button-secondary" href="./uiportfolio.html">Portfolio</a>
+              </div>  
+            </li>
+          </ul>  
         </section>
 
         <!-- Contact section -->
         <section id="contact">
           <h2>Contact</h2>
           <p>Please feel free to reach out &ndash; I'd love to chat!</p>
-            <ul class="inline">
+            <ul class="inline-center">
               <li>
-                <h4>Email</h4>
-                <p><a class="link" href="mailto:prd@drago.com.au">prd@drago.com.au</a></p>
+                <a class="button-primary" href="mailto:prd@drago.com.au">Send me an email</a>
               </li>
               <li>
-                <h4>Connect</h4>
-                <p><a class="link" href="https://www.linkedin.com/in/penny-drago/">Penny Drago LinkedIn profile</a></p>
+                <a class="button-primary" href="https://www.linkedin.com/in/penny-drago/">Connect on LinkedIn</a>
               </li>
             </ul>
         </section>
