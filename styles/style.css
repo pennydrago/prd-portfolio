@@ -132,7 +132,7 @@ ul {
 }
 
 .card-text {
-  padding: 4rem 6rem;
+  padding: 2rem 2rem 0rem;
 }
 
 .card-text p {
@@ -295,4 +295,138 @@ footer {
 
 .line-space {
   padding-bottom: 1rem;
+}
+
+/* Media query styles */
+
+@media screen and (max-width: 1500px) {
+  .left-content {
+    max-width: 100%;
+  }
+
+  .right-content {
+    margin: 0.5rem auto;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+  }
+}
+
+/* Media query styles - Tablet screen */
+
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+
+  h2 {
+    font-size: 2rem;
+    padding-bottom: 1.25rem;
+  }
+  
+  section {
+    padding-top: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    padding-bottom: 1.25rem;
+  }
+
+  .list-blog {
+    padding-bottom: 1.25rem;
+    padding-left: 2.5rem;
+  }
+  
+  #about {
+    border-radius: 10px;
+    padding: 1rem 0.5rem 0rem 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .project-card {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    margin: 0rem 0rem 3rem;
+  }
+
+  .last-card {
+    margin-bottom: 0.5rem;
+  }
+
+  .card-image {
+    max-width: 40%;
+  }
+  
+  .card-text {
+    padding: 1rem 1.5rem;
+  }
+  
+  .card-text p {
+    padding-top: 1rem;
+  }
+  
+  .button-secondary {
+    margin: 1rem 2rem 0rem 0rem;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    border: #205b91 solid 2px;
+    border-radius: 10px;
+    line-height: 1.3rem;
+  }
+
+  h1 a {
+    font-size: 2.75rem;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 3rem;
+  }
+  
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  .button-primary {
+    margin: 1rem 2rem;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    border: #205b91 solid 2px;
+    border-radius: 10px;
+    line-height: 1.3rem;
+  }
+  
+  .persona-text {
+    font-size: 1.1rem;
+    list-style-type: disc;
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+
+  figcaption {
+    font-size: 1.1rem;
+  }
+  
+  .caption-space {
+    padding-bottom: 1.5rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  
+  .line-space {
+    padding-bottom: 1rem;
+  }
+
 }
