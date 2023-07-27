@@ -310,6 +310,11 @@ footer {
     padding-right: 0rem;
     text-align: center;
   }
+
+  .card-image {
+    display: flex;
+    align-items: center;
+  }
 }
 
 /* Media query styles - Tablet screen */
@@ -415,6 +420,123 @@ footer {
   
   .caption-space {
     padding-bottom: 1.5rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  
+  .line-space {
+    padding-bottom: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 1.1rem;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    padding-bottom: 1.1rem;
+  }
+  
+  section {
+    padding-top: 1.25rem;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+  }
+  
+  p {
+    padding-bottom: 1.1rem;
+  }
+
+  .list-blog {
+    padding-bottom: 1.1rem;
+    padding-left: 2rem;
+  }
+  
+  #about {
+    border-radius: 8px;
+    padding: 1rem 0.5rem 0rem 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .project-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 0rem 0rem 2rem;
+  }
+
+  .last-card {
+    margin-bottom: 0.5rem;
+  }
+
+  .card-image {
+    max-width: 100%;
+  }
+  
+  .card-text {
+    padding: 1rem 1rem;
+  }
+  
+  .card-text p {
+    padding-top: 1rem;
+  }
+  
+  .button-secondary {
+    margin: 1rem 2rem 0rem 0rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border: #205b91 solid 2px;
+    border-radius: 8px;
+    line-height: 1.1rem;
+  }
+
+  h1 a {
+    font-size: 2.25rem;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 3rem;
+  }
+  
+  nav a {
+    font-size: 1.25rem;
+  }
+
+  .button-primary {
+    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border: #205b91 solid 2px;
+    border-radius: 8px;
+    line-height: 1.1rem;
+  }
+  
+  .persona-text {
+    font-size: 1rem;
+    list-style-type: disc;
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+
+  figcaption {
+    font-size: 1rem;
+  }
+  
+  .caption-space {
+    padding-bottom: 1.25rem;
   }
   
   /* Footer styles */
