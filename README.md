@@ -5,7 +5,7 @@
 ### Description
 This portfolio website (created by using HTML and CSS) describes my background, skills and projects.
 
-The red and grey color scheme was based on shades and tints of the hues #752327 and #8E8F89. The chosen colors passed accessibility for color contrast and color blindness (see Resources below). The sans-serif font stack (Arial, Helvetica, and sans-serif) was chosen to improve accessibility.
+The blue and grey colors passed accessibility for color contrast and color blindness (see Resources below). The sans-serif font stack (Arial, Helvetica, and sans-serif) was chosen to improve accessibility.
 
 ### Technology stack
 - HTML

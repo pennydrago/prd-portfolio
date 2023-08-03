@@ -117,10 +117,10 @@ ul {
 .project-card {
   display: flex;
   flex-wrap: nowrap;
-  background-color: #e8e8e8 ;
+  background-color: #E7E5E2;
   padding: 1rem;
   margin: 0rem 0rem 4rem;
-  box-shadow: 10px 10px 4px #D1D2CF;
+  box-shadow: 10px 10px 4px #B8B7B4;
 }
 
 .last-card {
@@ -263,7 +263,7 @@ nav a:hover {
  margin: 1rem auto;
  display: inherit;
  border: #161617 solid 2px;
- box-shadow: 10px 10px 4px #D1D2CF;
+ box-shadow: 10px 10px 4px #B8B7B4 ;
 }
 
 .image-small-centre {
@@ -271,7 +271,7 @@ nav a:hover {
   margin: 1rem auto;
   display: inherit;
   border: #161617 solid 2px;
-  box-shadow: 10px 10px 4px #D1D2CF;
+  box-shadow: 10px 10px 4px #B8B7B4 ;
  }
 
 .image-wide {
@@ -279,7 +279,7 @@ nav a:hover {
  margin: 1rem auto;
  display: inherit;
  border: #161617 solid 2px;
- box-shadow: 10px 10px 4px #D1D2CF;
+ box-shadow: 10px 10px 4px #B8B7B4 ;
 }
 
 .inline-image-wide {
@@ -289,7 +289,7 @@ nav a:hover {
   max-width: 100%;
   margin: 1rem 1rem;
   border: #161617 solid 2px;
-  box-shadow: 10px 10px 4px #D1D2CF;
+  box-shadow: 10px 10px 4px #B8B7B4 ;
 }
 
 figcaption {
